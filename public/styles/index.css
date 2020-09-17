@@ -19,6 +19,30 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.disc {
+    font-size: 16px;
+}
+
+.descr {
+    font-size: 16px;
+}
+
 .productos {
     background-color: var(--articles-bg-color);
 }
