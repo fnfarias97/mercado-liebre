@@ -1,5 +1,6 @@
 :root {
     --main-bg-color: #EAC926;
+    --articles-bg-color: #ebebeb; 
 }
 
 body{
@@ -8,6 +9,10 @@ body{
 
 header {
     background-color: var(--main-bg-color);
+}
+
+.articles {
+    background-color: var(--articles-bg-color);
 }
 
 .green {
@@ -24,8 +29,4 @@ header {
 
 .dark-grey {
     color: #666;
-}
-
-.light-grey {
-    color: #ebebeb;
 }

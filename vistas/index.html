@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 <body>
     <header>
-        <img src="images/logo-mercado-liebre.svg" alt="Logo del sitio">
+        <img src="images/logo-mercado-liebre.svg" alt="Logo del sitio" width="300px">
         <p>Lugar para poner la barra de búsqueda</p>
-        <div>Comprá en cuotas y sin tarjeta de crédito</div>
+        <div><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</div>
         <nav>
             <ul>
                 <li><a href="#">Ofertas</a></li>
@@ -19,53 +21,61 @@
                 <li><a href="#">Ayuda</a></li>
             </ul>
             <ul>
-                <li><a href="#">Creá tu cuenta</a></li>
-                <li><a href="#">Ingresá</a></li>
-                <li><a href="#">Mis Compras</a></li>
+                <li><a href="#">Creá tu cuenta<i class="fas fa-id-card"></i></a></li>
+                <li><a href="#">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis Compras<i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>
+        <img src="images/img-home-banner.jpg" alt="Banner" width=100%>
     </header>
 
-    <img src="images/img-home-banner.jpg" alt="Banner" width=100%>
-    <div id="productos">
+    
+    <div class="articles" id="productos">
         <h2>Basado en tu última visita:</h2>
         <section id="ult-visitas">
             <article>
                 <img src="images/img-cafetera-moulinex.jpg" alt="cafetera moulinex" width=100%>
-                <p>$6.770<br>
-                40% OFF<br>
+                <p><i class="fas fa-truck green"></i><br>
+                $6.770<br>
+                <span class="green">40% OFF</span><br>
                 <strong>Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</strong></p>
                 </article>
             <article>
                 <img src="images/img-macbook-pro-2019.jpg" alt="macbook pro 2019" width=100%>
-                <p>$230.000<br>
-                20% OFF<br>
+                <p><i class="fas fa-truck green"></i><br>
+                $230.000<br>
+                <span class="green">20% OFF</span><br>
                 <strong>Macbook Pro 2019 Lorem ipsum, dolor sit amet.</strong></p>
             </article>
             <article>
                 <img src="images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy S10" width=100%>
-                <p>$70.500<br>
-                15% OFF<br>
+                <p><i class="fas fa-truck green"></i><br>
+                $70.500<br>
+                <span class="green">15% OFF</span><br>
                 <strong>Teléfono móvil Samsung Galaxy S10 Lorem ipsum, dolor sit amet.</strong></p>
             </article>
             <article>
                 <img src="images/img-tv-samsung-smart.jpg" alt="TV Samsung Smart" width=100%>
-                <p>$70.500<br>
-                15% OFF<br>
+                <p><i class="fas fa-truck green"></i><br>
+                $34.000<br>
+                <span class="green">5% OFF</span><br>
                 <strong>SmartTv Samsung 43" Lorem ipsum, dolor sit amet</strong></p>
             </article>
         </section>
     </div>
     <footer>
-        <p><strong>Pagá con tarjeta o en efectivo</strong><br>
+        <p><i class="fas fa-credit-card light-blue"></i>
+            <strong>Pagá con tarjeta o en efectivo</strong><br>
             Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de
             pago. ¡Y siempre es seguro!</p>
 
-        <p><strong>Envío gratis desde los $ 2.500</strong><br>
+        <p><i class="fas fa-gift light-blue"></i>
+            <strong>Envío gratis desde los $ 2.500</strong><br>
             Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
             productos. Es un beneficio de MercadoPuntos.</p>
 
-        <p><strong>Seguridad, de principio a fin</strong><br>
+        <p><i class="fas fa-user-shield light-blue"></i>
+            <strong>Seguridad, de principio a fin</strong><br>
             ¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
             porque estás siempre prtegid@.</p> 
         
