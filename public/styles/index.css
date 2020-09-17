@@ -1,0 +1,31 @@
+:root {
+    --main-bg-color: #EAC926;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: var(--main-bg-color);
+}
+
+.green {
+    color: #39b54a;
+}
+
+.blue {
+    color:#03264C;
+}
+
+.light-blue {
+    color:#1259c3;;
+}
+
+.dark-grey {
+    color: #666;
+}
+
+.light-grey {
+    color: #ebebeb;
+}
