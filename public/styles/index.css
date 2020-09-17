@@ -11,8 +11,20 @@ header {
     background-color: var(--main-bg-color);
 }
 
-.articles {
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.productos {
     background-color: var(--articles-bg-color);
+}
+
+article {
+    background-color: white;
 }
 
 .green {
