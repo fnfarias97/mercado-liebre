@@ -1,6 +1,10 @@
 :root {
     --main-bg-color: #EAC926;
     --articles-bg-color: #ebebeb; 
+    --green: #39b54a;
+    --blue:#03264C;
+    --light-blue: #1259c3;
+    --dark-grey: #666;
 }
 
 body{
@@ -31,6 +35,12 @@ h3 {
     font-size: 18px;
 }
 
+article {
+    background-color: white;
+}
+
+/*------------------------ main classes ------------------------*/
+
 .price {
     font-size: 18px;
 }
@@ -47,22 +57,20 @@ h3 {
     background-color: var(--articles-bg-color);
 }
 
-article {
-    background-color: white;
-}
+/*------------------------ Color classes ------------------------*/
 
 .green {
-    color: #39b54a;
+    color: var(--green);
 }
 
 .blue {
-    color:#03264C;
+    color: var(--blue);
 }
 
 .light-blue {
-    color:#1259c3;;
+    color: var(--light-blue);
 }
 
 .dark-grey {
-    color: #666;
+    color: var(--dark-grey);
 }
