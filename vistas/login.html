@@ -10,8 +10,9 @@
 </head>
 <body>
     <header>
-        <img src="images/logo-mercado-liebre.svg" alt="Logo del sitio" width="300px">
-        <p>Lugar para poner la barra de búsqueda</p>
+        <a href="/"><img src="images/logo-mercado-liebre.svg" alt="Logo del sitio" width="300px"></a>
+        <input type="text" placeholder="Buscar productos, marcas">
+        <button><i class="fas fa-search"></i></button>
         <div><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</div>
         <nav>
             <ul>
@@ -29,13 +30,15 @@
         
     </header>
 
-    <form action="/" method="POST">
-        <div class="container-form">
-            <input type="text" placeholder="Nombre de usuario" required>
-            <input type="password" placeholder="Escribí tu contraseña" id="password" required>
-            <button type="submit">Enviar</button>
-        </div>
-    </form>
+    <main>
+        <form action="/" method="POST">
+            <div class="container-form">
+                <input type="text" placeholder="Nombre de usuario" required>
+                <input type="password" placeholder="Escribí tu contraseña" id="password" required>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
 
     <footer>
         <article>
@@ -57,7 +60,7 @@
             porque estás siempre prtegid@.</p> 
         </article>
         
-        <p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
+        <div id="copyright"><p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p></div>
     </footer>
 </body>
 </html>
