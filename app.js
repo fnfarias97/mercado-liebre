@@ -12,6 +12,16 @@ app.get('/', (req,res) =>{
 	res.sendFile(myFile);
 });
 
+app.get('/register', (req,res) =>{
+	let myFile = path.resolve('./vistas/register.html');
+	res.sendFile(myFile);
+});
+
+app.get('/login', (req,res) =>{
+	let myFile = path.resolve('./vistas/login.html');
+	res.sendFile(myFile);
+});
+
 app.get('*', (req,res) =>{
 	if (req.url.includes('.')) {
 		let myFile = path.resolve('public' + req.url);
