@@ -1,84 +1,15 @@
-:root {
-    --main-bg-color: #EAC926;
-    --articles-bg-color: #ebebeb; 
-    --green: #39b54a;
-    --blue:#03264C;
-    --light-blue: #1259c3;
-    --dark-grey: #666;
+main h2 {
+    text-align: left;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
-header {
-    background-color: var(--main-bg-color);
-}
-
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-p {
-    font-size: 12px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-article {
+main article {
     background-color: white;
-}
-
-input[type="text"], input[type="password"] {
-    display: block;
-}
-
-/*------------------------ main classes ------------------------*/
-
-.price {
-    font-size: 18px;
-}
-
-.disc {
-    font-size: 16px;
-}
-
-.descr {
-    font-size: 16px;
-}
-
-.productos {
-    background-color: var(--articles-bg-color);
-}
-
-.container-form {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-/*------------------------ Color classes ------------------------*/
-
-.green {
-    color: var(--green);
+    padding: 15px;
 }
 
-.blue {
-    color: var(--blue);
-}
-
-.light-blue {
-    color: var(--light-blue);
-}
-
-.dark-grey {
-    color: var(--dark-grey);
+#banner-img {
+    display: block;
+    width: 100%;
 }

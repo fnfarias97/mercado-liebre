@@ -1,0 +1,133 @@
+:root {
+    --head-bg-color: #EAC926;
+    --main-bg-color: #ebebeb; 
+    --green: #39b54a;
+    --blue:#03264C;
+    --light-blue: #1259c3;
+    --dark-grey: #666;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: var(--main-bg-color);
+}
+
+header {
+    background-color: var(--head-bg-color);
+}
+
+main {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+    padding: 20px 5%;
+}
+
+div {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--dark-grey);
+}
+
+h3 {
+    font-size: 18px;
+}
+
+header input {
+    display: block;
+}
+
+footer article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*------------------------ main classes ------------------------*/
+
+.price {
+    font-size: 18px;
+}
+
+.disc {
+    font-size: 16px;
+}
+
+.descr {
+    font-size: 16px;
+}
+
+
+.w-50 {
+    width: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*------------------------ Color classes ------------------------*/
+
+.green {
+    color: var(--green);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.light-blue {
+    color: var(--light-blue);
+}
+
+.dark-grey {
+    color: var(--dark-grey);
+}
+
+/*------------------------ IDs ------------------------*/
+
+#menu-button {
+    width: 40px;
+    height:  40px;
+    background-color: #0044AA;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#menu-button:hover {
+    background-color: #0022AA;
+    cursor: pointer;
+}
+

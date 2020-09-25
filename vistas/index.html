@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 <body>
     <header>
-        <a href="/"><img src="images/logo-mercado-liebre.svg" alt="Logo del sitio" width="300px"></a>
-        <input type="text" placeholder="Buscar productos, marcas">
+        <a href="/"><img src="images/logo-mercado-liebre.svg" alt="Logo del sitio" width="300px" id="logo" class="w-50"></a>
+        <input type="text" placeholder="Buscar productos, marcas" class="w-50">
         <button><i class="fas fa-search"></i></button>
         <div><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</div>
-        <nav>
+        <nav class="hidden">
             <ul>
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
@@ -26,10 +27,13 @@
                 <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
                 <li><a href="#">Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
-        </nav> 
+        </nav>
+        <div id="menu" class="center">
+            <button id="menu-button" class="center"><i class="fas fa-bars"></i></button>
+        </div>
     </header>
     <section id="banner-container">
-        <img src="images/img-home-banner.jpg" alt="Banner" width=100%>
+        <img src="images/img-home-banner.jpg" alt="Banner" width=100% id="banner-img">
     </section>
     <main>
         <section id="ult-visitas" class="productos">
